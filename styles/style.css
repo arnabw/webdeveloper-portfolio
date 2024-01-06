@@ -14,8 +14,30 @@ body {
     border: none;
     padding: 15px 35px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.common-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#common-section {
+    margin: 200px 150px;
+    padding: 100px 300px 150px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
 }
 
 /*Header Section*/
@@ -85,15 +107,61 @@ body {
     margin-bottom: 20px;
 }
 
-.banner-description {
-    color: #757575;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-.banner-content .common-button{
+.banner-content .common-button {
     margin-right: 24px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
+}
+
+/* Main Section */
+
+/* About Section */
+.about-section{
+    background: #FFF8F3!important;
+}
+.about-details-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details-title {
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.details-description {
+    color: #474747;
+    font-size: 15px;
+    font-weight: 700;
+}
+.box-layout{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 60px; */
+}
+.single-box{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 50px;
+}
+
+/* Resume Section */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer Section */
+#footer{
+    width: 1600px;
+height: 780px;
+background: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
 }
