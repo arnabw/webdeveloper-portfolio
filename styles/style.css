@@ -225,6 +225,88 @@ body {
     max-width: 170px;
 }
 
+/* Resume Section */
+.resume-section {
+    padding-bottom: 96px;
+    text-align: center;
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.resume-content .education-qualification .education-details,
+.resume-content .experience-qualification .experience-details {
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 25px;
+}
+
+.resume-content .education-qualification h3,
+.resume-content .experience-qualification h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 96px 0 25px;
+}
+
+.resume-content .education-qualification .education-details h4,
+.resume-content .experience-qualification .experience-details h4 {
+    color: #474747;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.resume-content .education-qualification .education-details .education-institute,
+.resume-content .experience-qualification .experience-details .company-name {
+    color: #757575;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 9px 0 17px;
+}
+
+.resume-content .education-qualification .education-details .education-description,
+.resume-content .experience-qualification .experience-details .experience-description {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    max-width: 434px;
+    margin-bottom: 25px;
+}
+
+/* Footer Section */
+#foots {
+    background: #FFF8F3;
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 110px 0;
+}
+.foot-container *{
+    margin-bottom: 25px;
+}
+
+.foot-container p {
+    color: #474747;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 478px;
+}
+.foot-container .icon i{
+    color: #FD6E0A;
+    margin-right: 20px;
+}
+
 /* Responsive */
 
 /* Small Device */
@@ -232,9 +314,9 @@ body {
 
     /* All & Common Style */
     body {
-        max-width: 1370px;    
+        max-width: 1370px;
     }
-    
+
 
     .container {
         max-width: 576px;
@@ -353,6 +435,11 @@ body {
         margin: 10px 0 18px 0;
     }
 
+    .what-I-do-content .what-I-do-box {
+        width: 100%;
+        max-width: 576px;
+    }
+
     .what-I-do-content .what-I-do-box .box-card {
         width: 96px;
         height: 135px;
@@ -376,17 +463,82 @@ body {
         max-width: 72px;
     }
 
+    /* Resume Section */
+    .resume-section {
+        padding-bottom: 41px;
+    }
+
+    .resume-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume-content .education-qualification .education-details,
+    .resume-content .experience-qualification .experience-details {
+        margin-bottom: 11px;
+    }
+
+    .resume-content .education-qualification h3,
+    .resume-content .experience-qualification h3 {
+        font-size: 11px;
+        margin: 41px 0 11px;
+    }
+
+    .resume-content .education-qualification .education-details h4,
+    .resume-content .experience-qualification .experience-details h4 {
+        font-size: 9px;
+    }
+
+    .resume-content .education-qualification .education-details .education-institute,
+    .resume-content .experience-qualification .experience-details .company-name {
+        font-size: 7px;
+        margin: 4px 0 7px;
+    }
+
+    .resume-content .education-qualification .education-details .education-description,
+    .resume-content .experience-qualification .experience-details .experience-description {
+        font-size: 6px;
+        line-height: 10px;
+        max-width: 184px;
+        margin-bottom: 11px;
+    }
+
+    /* Footer Section */
+
+    #foots {
+        background: rgb(137 43 226 / 19%);
+    }
+
+    .foot-container {
+        padding: 47px 0;
+    }
+
+    .foot-container *{
+        margin-bottom: 11px;
+    }
+
+    .foot-container p {
+        font-size: 6px;
+        line-height: 10px;
+        max-width: 202px;
+    }
+    .foot-container .icon i{
+        color: blueviolet;
+        margin-right: 9px;
+    }
 }
 
 
 /* Medium Device */
-@media screen and (min-width: 576px) and (max-width:992px){
+@media screen and (min-width: 576px) and (max-width:992px) {
 
     /* All & Common Style */
     body {
-        max-width: 1370px;    
+        max-width: 1370px;
     }
-    
+
 
     .container {
         max-width: 992 px;
@@ -505,6 +657,11 @@ body {
         margin: 19px 0 31px 0;
     }
 
+    .what-I-do-content .what-I-do-box {
+        width: 100%;
+        max-width: 992px;
+    }
+
     .what-I-do-content .what-I-do-box .box-card {
         width: 166px;
         height: 234px;
@@ -527,5 +684,70 @@ body {
         line-height: 17px;
         max-width: 125px;
     }
+
+    /* Resume Section */
+    .resume-section {
+        padding-bottom: 81px;
+    }
+
+    .resume-content {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume-content .education-qualification .education-details,
+    .resume-content .experience-qualification .experience-details {
+        margin-bottom: 19px;
+    }
+
+    .resume-content .education-qualification h3,
+    .resume-content .experience-qualification h3 {
+        font-size: 19px;
+        margin: 70px 0 19px;
+    }
+
+    .resume-content .education-qualification .education-details h4,
+    .resume-content .experience-qualification .experience-details h4 {
+        font-size: 15px;
+    }
+
+    .resume-content .education-qualification .education-details .education-institute,
+    .resume-content .experience-qualification .experience-details .company-name {
+        font-size: 12px;
+        margin: 6px 0 12px;
+    }
+
+    .resume-content .education-qualification .education-details .education-description,
+    .resume-content .experience-qualification .experience-details .experience-description {
+        font-size: 10px;
+        line-height: 17px;
+        max-width: 317px;
+        margin-bottom: 19px;
+    }
+        /* Footer Section */
+
+        #foots {
+            background: rgb(137 43 226 / 19%);
+        }
+    
+        .foot-container {
+            padding: 81px 0;
+        }
+    
+        .foot-container *{
+            margin-bottom: 19px;
+        }
+    
+        .foot-container p {
+            font-size: 10px;
+            line-height: 17px;
+            max-width: 348px;
+        }
+        .foot-container .icon i{
+            color: blueviolet;
+            margin-right: 15px;
+        }
 
 }
